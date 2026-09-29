@@ -531,6 +531,7 @@ static const Rule rules[] = {
 	RULE(.class = "Firefox", .tags = 1 << 7)
 	RULE(.class = "Toolkit", .title = "Picture-in-Picture", .isfloating = 1)
 	RULE(.class = "Flameshot", .isfloating = 1)
+	// RULE(.class = "Flameshot", .isfloating = 1, .isfullscreen = 1)
 
 
 	#if RENAMED_SCRATCHPADS_PATCH
