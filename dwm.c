@@ -676,9 +676,9 @@ static Monitor *dirtomon(int dir);
 static void drawbar(Monitor *m);
 static void drawbars(void);
 static void drawbarwin(Bar *bar);
-#if !FOCUSONCLICK_PATCH
-static void enternotify(XEvent *e);
-#endif // FOCUSONCLICK_PATCH
+// #if !FOCUSONCLICK_PATCH
+// static void enternotify(XEvent *e);
+// #endif // FOCUSONCLICK_PATCH
 static void expose(XEvent *e);
 static void focus(Client *c);
 static void focusin(XEvent *e);
@@ -835,9 +835,9 @@ static void (*handler[LASTEvent]) (XEvent *) = {
 	[ConfigureRequest] = configurerequest,
 	[ConfigureNotify] = configurenotify,
 	[DestroyNotify] = destroynotify,
-	#if !FOCUSONCLICK_PATCH
-	[EnterNotify] = enternotify,
-	#endif // FOCUSONCLICK_PATCH
+	// #if !FOCUSONCLICK_PATCH
+	// [EnterNotify] = enternotify,
+	// #endif // FOCUSONCLICK_PATCH
 	[Expose] = expose,
 	#if BANISH_PATCH
 	[GenericEvent] = genericevent,

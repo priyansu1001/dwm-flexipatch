@@ -1,4 +1,5 @@
 *.o
+printf '%s\n' '*.o' 'dwm' > .gitignore
 dwm
 dwm-msg
 config.h

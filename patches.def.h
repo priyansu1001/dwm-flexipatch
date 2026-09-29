@@ -152,7 +152,7 @@
  * when clicking the status bar. Refer to the website for usage.
  * https://dwm.suckless.org/patches/statuscmd/
  */
-#define BAR_STATUSCMD_PATCH 0
+#define BAR_STATUSCMD_PATCH 1
 
 /* Status2d allows colors and rectangle drawing in your dwm status bar.
  * This patch is incompatible with the statuscolors patch which takes precedence.
@@ -175,7 +175,7 @@
 /* The systray patch adds systray for the status bar.
  * https://dwm.suckless.org/patches/systray/
  */
-#define BAR_SYSTRAY_PATCH 0
+#define BAR_SYSTRAY_PATCH 1
 
 /* Show tag symbols in the bar. */
 #define BAR_TAGS_PATCH 1
@@ -464,7 +464,7 @@
 /* Adds a window task switcher toggled using alt-tab.
  * https://dwm.suckless.org/patches/alt-tab/
  */
-#define ALT_TAB_PATCH 0
+#define ALT_TAB_PATCH 1
 
 /* All floating windows are centered, like the center patch, but without a rule.
  * The center patch takes precedence over this patch.
